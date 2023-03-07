@@ -36,7 +36,7 @@ namespace Threading
 
             for(int i = 0; i < list.Count; i++) 
             {
-                FindPiThread findPi = list[i];;
+                FindPiThread findPi = list[i];
                 Console.WriteLine(4 * (findPi.dartBoard / Int32.Parse(userThrow)));
             }
             Console.ReadLine();

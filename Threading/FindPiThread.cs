@@ -31,7 +31,7 @@ namespace Threading
                 var x = dartThrow.NextDouble();
                 var y = dartThrow.NextDouble(); 
                 
-                if((x * x) + (y * y) < 1)
+                if(Math.Sqrt((x * x) + (y * y)) < 1)
                 {
                     dartboardCount++;
                 }
